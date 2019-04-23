@@ -1,0 +1,139 @@
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: green;
+}
+/* a:visited{
+    color: purple;
+} */
+.container{
+    width: 80%;
+    margin: auto;
+}
+.box-1{
+    background-color: #333;
+    color: #fff;
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+
+    /* Same as above */
+    border: 5px red solid;
+    padding: 20px;
+    margin-top: 20px;
+    margin: 20px 0;
+
+}
+.box-1 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    word-spacing: 1em;
+
+}
+.box-2{
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+
+}
+.Catagories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+.Catagories h2{
+    text-align: center;
+}
+.Catagories ul{
+    padding: 20 0;
+    list-style: none;
+    padding-left: 20px;
+}
+.Catagories li{
+    padding-bottom: 5px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('img/Check.png')
+}
+.formGroup{
+    padding-bottom: 10px;
+}
+.formGroup input[type="text"], .formGroup textarea{
+    padding: 5px;
+    width: 100%;
+}
+.button{
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+}
+.button:hover{
+background: green;
+color: white;
+}
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box; /* Really nice to know */
+}
+.clr{
+    clear: both;
+}
+#main{
+float: left;
+width: 70%;
+padding: 15px;
+    box-sizing: border-box;
+
+}
+#side{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color:white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.pBox{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 30px;
+    background-image: url(img/bgimage.jpg);
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-position: center center;
+}
+.myList li:first-child{
+    background: yellow;
+}
+.myList li:last-child{
+    background: blue;
+}
+.myList li:nth-child(3){
+    background: #333
+}
+.myList li:nth-child(even){
+    background: #555555;
+}

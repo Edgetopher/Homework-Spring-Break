@@ -1,0 +1,23 @@
+body{
+    margin:0;
+}
+h1{
+    background-color: rgb(128, 127, 127);
+}
+h2{
+
+}
+div{
+    text-align: center;
+}
+#parent{
+    text-align: center;
+}
+#button{
+    margin-top: 15px;
+    text-align: center;
+    width: 120px;
+}
+#output{
+    margin-top: 15px;
+}
